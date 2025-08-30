@@ -1,0 +1,23 @@
+com.microsoft.playwright.PlaywrightException: Error {
+  message='Error: strict mode violation: locator("//*[contains(@id,'password')]") resolved to 2 elements:
+    1) <input required="" id="password" type="password" name="password" class="form-control" placeholder="Your Password"/> aka getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Your Password").setExact(true))
+    2) <input required="" type="password" class="form-control" id="passwordConfirm" name="passwordConfirm" placeholder="Repeat your password"/> aka getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Repeat your password"))
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//*[contains(@id,'password')]") resolved to 2 elements:
+    1) <input required="" id="password" type="password" name="password" class="form-control" placeholder="Your Password"/> aka getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Your Password").setExact(true))
+    2) <input required="" type="password" class="form-control" id="passwordConfirm" name="passwordConfirm" placeholder="Repeat your password"/> aka getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Repeat your password"))
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\chromium\crExecutionContext.js:80:13)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\javascript.js:217:12)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\frames.js:915:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\frames.js:884:24)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\frames.js:1007:29
+    at async ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\progress.js:80:22)
+    at async FrameDispatcher.fill (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\dispatchers\frameDispatcher.js:129:12)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-2199024287586459283\package\lib\server\dispatchers\dispatcher.js:90:14)
+}
+Call log:
+-   - waiting for locator("//*[contains(@id,'password')]")

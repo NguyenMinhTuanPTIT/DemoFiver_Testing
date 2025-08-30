@@ -3,27 +3,40 @@ package Pages;
 import Base.BasePage;
 import Locators.*;
 import com.microsoft.playwright.Page;
+import org.testng.Assert;
+import Data.*;
 
 public class LoginPage extends BasePage {
-    public LoginPage(Page page, String baseUrl) {
-        super(page, baseUrl);
+    public LoginPage(Page page) {
+        super(page);
     }
 
-    public void unseenPassword(String password) {
-        navigate(UrlLocator.LOGIN_URL);
-        fill(LoginLocator.password,password);
-        click(LoginLocator.unseenPasswordBtn);
-    }
+
+
     public void login(String email, String password) {
-        navigate(UrlLocator.LOGIN_URL);
-        fill(LoginLocator.email,email);
-        fill(LoginLocator.password,password);
-        click(LoginLocator.btnLogin);
+        typeByLocator(LoginLocator.email, email);
+        page.waitForTimeout(1000);
+        typeByLocator(LoginLocator.password, password);
+        page.waitForTimeout(1000);
+        clickByLocator(LoginLocator.loginBtn);
+        page.waitForTimeout(4000);
     }
+
     public void transferToRegisterPage() {
-        navigate(UrlLocator.LOGIN_URL);
-        click(LoginLocator.aResgister);
+        page.navigate(UrlLocator.LOGIN_URL);
+        clickByLocator(LoginLocator.transferToRegisterBtn);
     }
 
 
+    public boolean isUnseenPasswordRunning() {
+        typeByLocator(LoginLocator.password, LoginData.password);
+        String beforeType = getAttributeOfLocator(LoginLocator.password, "type");
+        clickByLocator(LoginLocator.unseenPasswordBtn);
+        String afterType = getAttributeOfLocator(LoginLocator.password, "type");
+        clickByLocator(LoginLocator.unseenPasswordBtn);
+        String finalType = getAttributeOfLocator(LoginLocator.password, "type");
+
+        return beforeType.equals(finalType) && !beforeType.equals(afterType);
+    }
 }
+

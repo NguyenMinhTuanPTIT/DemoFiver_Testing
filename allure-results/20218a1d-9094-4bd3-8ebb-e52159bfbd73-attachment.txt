@@ -1,0 +1,29 @@
+com.microsoft.playwright.PlaywrightException: Error {
+  message='SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='row']:nth-match(h1,1)' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5858:25)
+    at InjectedScript._queryEngineAll (<anonymous>:6536:49)
+    at InjectedScript.querySelectorAll (<anonymous>:6523:30)
+    at eval (eval at evaluate (:291:30), <anonymous>:4:35)
+    at UtilityScript.evaluate (<anonymous>:293:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  name='Error
+  stack='Error: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='row']:nth-match(h1,1)' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5858:25)
+    at InjectedScript._queryEngineAll (<anonymous>:6536:49)
+    at InjectedScript.querySelectorAll (<anonymous>:6523:30)
+    at eval (eval at evaluate (:291:30), <anonymous>:4:35)
+    at UtilityScript.evaluate (<anonymous>:293:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\chromium\crExecutionContext.js:80:13)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\javascript.js:217:12)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\frames.js:632:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\frames.js:884:24)
+    at async C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\frames.js:617:14
+    at async ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\progress.js:80:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\dispatchers\frameDispatcher.js:82:98)
+    at async LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-9374755183054514126\package\lib\server\dispatchers\dispatcher.js:90:14)
+}
+Call log:
+-   - waiting for locator("//div[@class='row']:nth-match(h1,1)") to be visible

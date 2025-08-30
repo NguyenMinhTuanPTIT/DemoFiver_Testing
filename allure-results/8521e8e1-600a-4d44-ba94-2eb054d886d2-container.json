@@ -1,0 +1,1 @@
+{"uuid":"8521e8e1-600a-4d44-ba94-2eb054d886d2","name":"Tests.ProfileTest.init","children":["c260f0de-e99c-47e8-ae2b-8f084c4a077d"],"description":"","befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1756275317392,"stop":1756275329101}],"afters":[],"start":1756275317392,"stop":1756275329101}

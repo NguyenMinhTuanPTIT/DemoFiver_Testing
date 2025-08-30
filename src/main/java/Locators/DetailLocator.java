@@ -49,7 +49,19 @@ public class DetailLocator {
     public static final String amount5star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[1]";
 
     //comment
-    public static final String commentTextBox ="//div[@class=\"add-comment py-4\"]/.//textarea";
+    public static final String commentItem="(//ul[@class='review-comment-list']//p)";
+    public static final String commentTextBox ="//div[@class='add-comment py-4']/.//textarea";
     public static final String commentButton ="button:has_text('Comment')";
+    public static final String halfRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='1']//div[contains(@class,'first')]";
+    public static final String oneRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='1']//div[contains(@class,'second')]";
+    public static final String onehalfRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='2']//div[contains(@class,'first')]";
+    public static final String twoRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='2']//div[contains(@class,'second')]";
+    public static final String twohalfRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='3']//div[contains(@class,'first')]";
+    public static final String threeRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='3']//div[contains(@class,'second')]";
+    public static final String threehalfRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='4']//div[contains(@class,'first')]";
+    public static final String fourRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='4']//div[contains(@class,'second')]";
+    public static final String fourhalfRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='5']//div[contains(@class,'first')]";
+    public static final String fiveRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='5']//div[contains(@class,'second')]";
+
 
 }

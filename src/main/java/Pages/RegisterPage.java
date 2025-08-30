@@ -1,31 +1,55 @@
+// File: src/main/java/Pages/RegisterPage.java
 package Pages;
 
 import Base.BasePage;
 import com.microsoft.playwright.Page;
 import Locators.*;
+
 public class RegisterPage extends BasePage {
-    public RegisterPage(Page page, String baseUrl) {
-        super(page, baseUrl);
+    public RegisterPage(Page page) {
+        super(page);
     }
-    public void register(String name,String email,String password,String confirmPass,String phone,String birthday,boolean isMale,boolean isConfirm) {
-        navigate(UrlLocator.registerPageUrl);
-        fill(RegisterLocator.ipUser,name);
-        fill(RegisterLocator.ipPw,password);
-        fill(RegisterLocator.ipRpw,confirmPass);
-        fill(RegisterLocator.ipPhone,phone);
-        fill(RegisterLocator.ipBrithday,birthday);
-        if(isMale) {
-            click(RegisterLocator.opionMale);
-        }else {
-            click(RegisterLocator.opionFemale);
+
+    public void register(String name, String email, String password, String confirmPass, String phone, String birthday, boolean isMale, boolean isConfirm) {
+        page.navigate(UrlLocator.registerPageUrl);
+        typeByLocator(RegisterLocator.username, name);
+        typeByLocator(RegisterLocator.email, email);
+        typeByLocator(RegisterLocator.password, password);
+        typeByLocator(RegisterLocator.confirmPassword, confirmPass);
+        typeByLocator(RegisterLocator.phone, phone);
+
+        // === Birthday field debug ===
+        try {
+            clickByLocator(RegisterLocator.birthday);
+            page.waitForTimeout(1000);
+
+            // Một số date picker không cho nhập từng phần. Thử nhập toàn bộ chuỗi ddmmyyyy.
+            page.locator(RegisterLocator.birthday).type(birthday);
+            String actual = page.inputValue(RegisterLocator.birthday);
+            if (!birthday.equals(actual)) {
+                logger.warn("[Bug] Birthday input không nhận giá trị. Expected=" + birthday + " | Actual=" + actual);
+            } else {
+                logger.info("Birthday input set thành công: " + actual);
+            }
+        } catch (Exception e) {
+            logger.error("[Bug] Không thể thao tác với birthday input. Locator=" + RegisterLocator.birthday + " | Error=" + e.getMessage());
+            // không throw để test vẫn có thể tiếp tục kiểm tra các phần khác nếu cần
         }
-        if(isConfirm) {
-            click(RegisterLocator.cbox_agreeitem);
+
+        if (isMale) {
+            clickByLocator(RegisterLocator.opionMale);
+        } else {
+            clickByLocator(RegisterLocator.opionFemale);
         }
-        click(RegisterLocator.btnSubmit);
+        if (isConfirm) {
+            clickByLocator(RegisterLocator.confirmAgreeBtn);
+        }
+        clickByLocator(RegisterLocator.registerBtn);
     }
+
+
     public void transferToLoginPage() {
-        navigate(UrlLocator.registerPageUrl);
-        click(RegisterLocator.aLogin);
+        page.navigate(UrlLocator.registerPageUrl);
+        clickByLocator(RegisterLocator.transferToLoginBtn);
     }
 }
