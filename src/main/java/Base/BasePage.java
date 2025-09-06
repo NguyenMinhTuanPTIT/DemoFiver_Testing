@@ -5,6 +5,10 @@ import com.microsoft.playwright.options.WaitForSelectorState;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class BasePage {
     protected final Page page;
     protected final Logger logger = LogManager.getLogger(this.getClass());
@@ -30,6 +34,16 @@ public class BasePage {
         try {
             waitForVisibleByLocator(locator);
             page.locator(locator).type(text);
+            logger.info("Đã nhập '{}' vào element: {}", text, locator);
+        } catch (Exception e) {
+            logger.error("Lỗi khi nhập vào element: {}", locator, e);
+            throw e;
+        }
+    }
+    public void fillByLocator(String locator, String text) {
+        try {
+            waitForVisibleByLocator(locator);
+            page.locator(locator).fill(text);
             logger.info("Đã nhập '{}' vào element: {}", text, locator);
         } catch (Exception e) {
             logger.error("Lỗi khi nhập vào element: {}", locator, e);
@@ -63,6 +77,33 @@ public class BasePage {
         }
     }
 
+    public List<String> getTextsByLocator(String locator) {
+        try {
+            List<String> texts = page.locator(locator).allTextContents();
+            logger.info("Đã lấy thành công danh sách text từ locator: {}", locator);
+            return texts;
+        } catch (Exception e) {
+            logger.error("Lỗi khi lấy danh sách text từ locator: {}", locator, e);
+            throw e;
+        }
+    }
+
+    public int extractNumber(String text) {
+        // Biểu thức chính quy để tìm một hoặc nhiều chữ số liên tiếp
+        try {
+            Pattern pattern = Pattern.compile("\\d+");
+            Matcher matcher = pattern.matcher(text);
+            if (matcher.find()) {
+                return Integer.parseInt(matcher.group());
+            }
+            return -1;
+        } catch (Exception e) {
+            logger.error("Lỗi trong quá trình lấy số: " + e);
+            return 0;
+        }
+        // Trả về -1 hoặc ném ngoại lệ nếu không tìm thấy số
+    }
+
     // Kiểm tra hiển thị
     public boolean isVisibleByLocator(String locator) {
         try {
@@ -74,9 +115,11 @@ public class BasePage {
             throw e;
         }
     }
+
     public boolean isErrorVisible(String locator) {
         return isVisibleByLocator(locator);
     }
+
     // Kiểm tra radio/checkbox checked state
     public boolean isCheckedByLocator(String locator) {
         try {

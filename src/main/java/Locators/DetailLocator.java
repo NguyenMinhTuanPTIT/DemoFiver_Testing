@@ -13,7 +13,7 @@ public class DetailLocator {
     public static final String basicDescription ="//div[@id='basic']//p";
     public static final String basicPrice ="(//span[text()='Basic']/following::span[contains(text(),'US$')])[4]";
     public static final String standardLevel="(//button[text()='Standard'])[2]";
-    public static final String standardTitle ="(//span[text()='Basic'])[2]";
+    public static final String standardTitle ="(//span[text()='Standard'])[2]";
     public static final String standardDescription ="//div[@id='standard']//p";
     public static final String standardPrice ="(//span[text()='Standard']/following::span[contains(text(),'US$')])[3]";
     public static final String premiumLevel="(//button[text()='Premium'])[2]";
@@ -21,7 +21,7 @@ public class DetailLocator {
     public static final String premiumDescription ="//div[@id='premium']//p";
     public static final String premiumPrice ="(//span[text()='Premium']/following::span[contains(text(),'US$')])[1]";
     //button submit
-    public static final String continuteButton = "(//button[@class=\"submit\"])[2]";
+    public static final String continuteButton = "(//button[@class='submit'])[2]";
     public static final String compareButton="(//a[@href=\"#compare\"])[2]";
     //about
     public static final String aboutTitle ="//div[@class='job-description mt-5']//h2";
@@ -31,17 +31,13 @@ public class DetailLocator {
     public static final String ratingAmountBody ="//div[@class=\"profile-label\"]//div[@class=\"rating\"]";
     public static final String contactButton ="//button[text()='Contact Me']";
     //Faq
-    public static final String faqTitle="//div[@class=\"FAQ mt-5\"]//h2";
-    public static final String info1Title ="(//div[@class=\"FAQ mt-5\"]//li//h3)[1]";
-    public static final String info2Title ="(//div[@class=\"FAQ mt-5\"]//li//h3)[2]";
-    public static final String info3Title ="(//div[@class=\"FAQ mt-5\"]//li//h3)[3]";
-    public static final String info4Title ="(//div[@class=\"FAQ mt-5\"]//li//h3)[4]";
-    public static final String info1Description ="(//div[@class=\"FAQ mt-5\"]//li//p)[1]";
-    public static final String info2Description ="(//div[@class=\"FAQ mt-5\"]//li//p)[2]";
-    public static final String info3Description ="(//div[@class=\"FAQ mt-5\"]//li//p)[3]";
-    public static final String info4Description ="(//div[@class=\"FAQ mt-5\"]//li//p)[4]";
+    public static final String faqTitle="//div[@class='FAQ mt-5']//li//h3";
+    public static final String faqDescription ="//div[@class='FAQ mt-5']//li//p";
     //rating
     public static final String ratingAmountDown ="//h2[@class='mb-0 me-2']";
+    public static final String sortCommentDropdown ="//span[text()='Sort By']/..//select";
+    public static final String filterTextbox ="//h3[text()='Filters']/..//input";
+    public static final String filterBtn ="//h3[text()='Filters']/..//button";
     public static final String amount1star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[5]";
     public static final String amount2star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[4]";
     public static final String amount3star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[3]";
@@ -49,9 +45,10 @@ public class DetailLocator {
     public static final String amount5star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[1]";
 
     //comment
+    public static final String commentAuthor="//li[@class='row py-4']//h3";
     public static final String commentItem="(//ul[@class='review-comment-list']//p)";
     public static final String commentTextBox ="//div[@class='add-comment py-4']/.//textarea";
-    public static final String commentButton ="button:has_text('Comment')";
+    public static final String commentButton ="button:has-text('Comment')";
     public static final String halfRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='1']//div[contains(@class,'first')]";
     public static final String oneRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='1']//div[contains(@class,'second')]";
     public static final String onehalfRatingStar="//div[@class='d-flex align-items-center gap-1']//div[@aria-posinset='2']//div[contains(@class,'first')]";

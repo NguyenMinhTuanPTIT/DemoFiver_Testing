@@ -1,0 +1,13 @@
+com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-18396289185630367973\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-18396289185630367973\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-18396289185630367973\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-18396289185630367973\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-18396289185630367973\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//li[@class='row py-4'][2]//h3") to be visible
+-     63 × locator resolved to hidden <h3></h3>

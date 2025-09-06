@@ -1,6 +1,7 @@
 package Pages;
 
 import Base.BasePage;
+import Locators.UrlLocator;
 import com.microsoft.playwright.*;
 import Locators.ProfileLocator;
 import com.microsoft.playwright.options.LoadState;
@@ -156,10 +157,12 @@ public class ProfilePage extends BasePage {
 
     public boolean isProductExist(String containsName) {
         // Lấy tất cả product item
-        page.waitForTimeout(4000);
+        page.navigate(UrlLocator.profilePageUrl);
+        page.waitForTimeout(3000);
         Locator productItems = page.locator(ProfileLocator.productItems);
         page.waitForTimeout(2000);
         int count = productItems.count();
+        int countProduct = 0;
 
         if (count == 0) {
             logger.warn("Danh sách Product đang trống");
@@ -174,12 +177,20 @@ public class ProfilePage extends BasePage {
 
             if (productName != null && productName.contains(containsName)) {
                 logger.info("Đã tìm thấy sản phẩm khớp: " + productName);
-                return true;
+                countProduct++;
             }
         }
+        if(countProduct>=2) {
+            logger.error("Có hơn 2 sản phẩm giống nhau cùng xuất hiện trong giỏ hàng");
+            return false;
+        }else if(countProduct ==0) {
+            logger.warn("Không tìm thấy sản phẩm nào chứa chuỗi: '" + containsName + "'");
+            return false;
+        } else{
+            return true;
+        }
 
-        logger.warn("Không tìm thấy sản phẩm nào chứa chuỗi: '" + containsName + "'");
-        return false;
+
     }
 
     public boolean deleteProductByName(String containName) {
