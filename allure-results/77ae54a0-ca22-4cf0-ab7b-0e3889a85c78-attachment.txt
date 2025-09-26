@@ -1,0 +1,1 @@
+java.lang.AssertionError: Chức năng làm mới trang hoặc kéo lên đầu trang khi click Logo không hoạt động expected [true] but found [false]
