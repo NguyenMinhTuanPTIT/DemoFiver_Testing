@@ -23,7 +23,7 @@ public class LoginPage extends BasePage {
     }
 
     public void transferToRegisterPage() {
-        page.navigate(UrlLocator.LOGIN_URL);
+        page.navigate(UrlLocator.LOGIN_PAGE);
         clickByLocator(LoginLocator.transferToRegisterBtn);
     }
 

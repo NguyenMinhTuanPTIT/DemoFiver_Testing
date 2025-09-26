@@ -173,6 +173,7 @@ public class BasePage {
             if (locator.equalsIgnoreCase(HomeLocator.searchBodyBar)) {
                 logger.info("Thực hiện search qua BODY search bar");
             } else if (locator.equalsIgnoreCase(HomeLocator.searchHeaderBar)) {
+                page.mouse().wheel(0, 300);
                 logger.info("Thực hiện search qua HEADER search bar");
             } else {
                 logger.warn("Locator không khớp body/header: {}", locator);

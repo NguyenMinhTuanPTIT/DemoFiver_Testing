@@ -1,1 +1,0 @@
-java.lang.AssertionError: số lượng rating hiển thị không đồng nhất expected [true] but found [false]

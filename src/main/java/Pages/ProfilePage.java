@@ -157,7 +157,7 @@ public class ProfilePage extends BasePage {
 
     public boolean isProductExist(String containsName) {
         // Lấy tất cả product item
-        page.navigate(UrlLocator.profilePageUrl);
+        page.navigate(UrlLocator.PROFILE_PAGE);
         page.waitForTimeout(3000);
         Locator productItems = page.locator(ProfileLocator.productItems);
         page.waitForTimeout(2000);

@@ -11,7 +11,7 @@ public class RegisterPage extends BasePage {
     }
 
     public void register(String name, String email, String password, String confirmPass, String phone, String birthday, boolean isMale, boolean isConfirm) {
-        page.navigate(UrlLocator.registerPageUrl);
+        page.navigate(UrlLocator.JOIN_PAGE);
         typeByLocator(RegisterLocator.username, name);
         typeByLocator(RegisterLocator.email, email);
         typeByLocator(RegisterLocator.password, password);
@@ -49,7 +49,7 @@ public class RegisterPage extends BasePage {
 
 
     public void transferToLoginPage() {
-        page.navigate(UrlLocator.registerPageUrl);
+        page.navigate(UrlLocator.JOIN_PAGE);
         clickByLocator(RegisterLocator.transferToLoginBtn);
     }
 }

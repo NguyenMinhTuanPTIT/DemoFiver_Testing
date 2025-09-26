@@ -25,13 +25,13 @@ public class DetailPage extends BasePage {
     public boolean chooseAccountStatus(boolean status) {
         try {
             if (status) {
-                page.navigate(UrlLocator.LOGIN_URL);
+                page.navigate(UrlLocator.LOGIN_PAGE);
                 LoginPage loginPage = new LoginPage(page);
                 loginPage.login(LoginData.email, LoginData.password);
-                page.navigate(UrlLocator.detailPageUrl);
+                page.navigate(UrlLocator.DETAIL_PAGE);
                 page.waitForTimeout(5000);
             } else {
-                page.navigate(UrlLocator.detailPageUrl);
+                page.navigate(UrlLocator.DETAIL_PAGE);
                 page.waitForTimeout(5000);
             }
             logger.info("Đã chọn trạng thái tài khoản: " + (status ? "Login" : "Guest"));
@@ -42,6 +42,15 @@ public class DetailPage extends BasePage {
         }
     }
 
+    public int getLevelSellerInDetail() {
+        String level = getTextByLocator(DetailLocator.levelSeller);
+        if (level == null || level.isEmpty()) {
+            logger.error("Không tìm thấy level của sản phẩm");
+            return -1;
+        }
+        logger.info(level);
+        return extractNumber(level);
+    }
     public boolean chooseStar(double expectStar) {
         try {
             if (expectStar < 0.5 || expectStar > 5 || Math.abs(expectStar % 0.5) > 1e-9) {
@@ -122,7 +131,7 @@ public class DetailPage extends BasePage {
 
     public boolean compareProduct() {
         this.chooseAccountStatus(true);
-        page.navigate(UrlLocator.detailPageUrl);
+        page.navigate(UrlLocator.DETAIL_PAGE);
         clickByLocator(DetailLocator.compareButton);
         page.waitForTimeout(5000);
         if (page.url().contains("compare")) {
@@ -174,7 +183,7 @@ public class DetailPage extends BasePage {
     public boolean contactSeller(boolean status) {
         if (status) {
             this.chooseAccountStatus(status);
-            page.navigate(UrlLocator.detailPageUrl);
+            page.navigate(UrlLocator.DETAIL_PAGE);
             clickByLocator(DetailLocator.contactButton);
             page.waitForTimeout(5000);
             if (page.url().contains("seller")) {

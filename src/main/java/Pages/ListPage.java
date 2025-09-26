@@ -35,16 +35,18 @@ public class ListPage extends BasePage {
         return null;
     }
 
-    public int getLevelSellerOfProduct(String productName) {
-        String productLevelLocator = "//a[contains(text(),'" + productName + "')]/ancestor::div[@class=\"col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4\"]//div[@class=\"name\"]//p";
+    public int getLevelSellerInList(String productName) {
+        String productLevelLocator = "//a[contains(text(),'" + productName + "')]/ancestor::div[@class='col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4']//div[@class='name']//p";
+        page.waitForTimeout(2000);
         String levelText = getTextByLocator(productLevelLocator);
-        if (levelText == null || levelText.trim().isEmpty()) {
+        logger.info(levelText);
+        if(levelText == null || levelText.trim().isEmpty()) {
             logger.error("Không tìm thấy level của sản phẩm: " + productName);
             return -1;
-        } else {
-            return extractNumber(levelText);
         }
-    }
+        return extractNumber(levelText);
+        }
+
 
     public int getPriceOfProduct(String productName) {
         String productPriceLocator = "//a[contains(text(),'" + productName + "')]/ancestor::div[@class=\"col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4\"]//div[@class=\"price d-flex\"]//span";
