@@ -402,7 +402,7 @@ public class DetailPage extends BasePage {
                 logger.error("Level không hợp lệ: {}", level);
                 return false;
             }
-            page.waitForTimeout(5000);
+//            page.waitForTimeout(5000);
             clickByLocator(DetailLocator.continuteButton);
             page.waitForTimeout(3000);
             logger.info("Đã mua sản phẩm thành công với level: " + level);

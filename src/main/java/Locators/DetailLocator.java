@@ -38,11 +38,6 @@ public class DetailLocator {
     public static final String sortCommentDropdown ="//span[text()='Sort By']/..//select";
     public static final String filterTextbox ="//h3[text()='Filters']/..//input";
     public static final String filterBtn ="//h3[text()='Filters']/..//button";
-    public static final String amount1star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[5]";
-    public static final String amount2star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[4]";
-    public static final String amount3star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[3]";
-    public static final String amount4star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[2]";
-    public static final String amount5star="(//div[@class=\"review-rating mt-3 row\"]//td[@class=\"star-num\"])[1]";
 
     //comment
     public static final String commentAuthor="//li[@class='row py-4']//h3";

@@ -3,7 +3,7 @@ package Data;
 
 public class RegisterData {
     public static final String username ="Tào Tháo";
-    public static final String email = "tuantest0408@hotmail.com";
+    public static final String email = "tuantest0808@hotmail.com";
     public static final String password ="Weber080804";
     public static final String confirmPassword = "Weber080804";
     public static final String phone ="0933361765";

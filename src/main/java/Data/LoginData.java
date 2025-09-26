@@ -1,7 +1,7 @@
 package Data;
 
 public class LoginData {
-    public static final String email = "tuantest0808@gmail.com";
+    public static final String email = "tuantest0808@hotmail.com";
     public static final String password ="Weber080804";
     public static final int wrongTimes = 5;
     public static final String invalidEmail = "bubu";

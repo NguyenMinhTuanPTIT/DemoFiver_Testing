@@ -10770,3 +10770,1712 @@ java.lang.AssertionError: hệ thống thống kê đơn hàng không hoạt đ�
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
 {INFO ] 2025-09-06 13:42:28.774 [main] DetailTest - === Đóng Browser cho test case testOrderCountAfterBuy ===
+{INFO ] 2025-09-06 14:19:11.326 [main] DetailTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-06 14:19:17.661 [main] DetailTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-06 14:19:21.974 [main] LoginPage - Đã chờ element //*[contains(@id,'email')] hiển thị
+{INFO ] 2025-09-06 14:19:22.109 [main] LoginPage - Đã nhập 'tuantest0808@gmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-09-06 14:19:23.117 [main] LoginPage - Đã chờ element //*[contains(@id,'password')] hiển thị
+{INFO ] 2025-09-06 14:19:23.164 [main] LoginPage - Đã nhập 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-09-06 14:19:24.175 [main] LoginPage - Đã chờ element //*[contains(@type,'submit')] hiển thị
+{INFO ] 2025-09-06 14:19:24.216 [main] LoginPage - Đã click vào element: //*[contains(@type,'submit')]
+{INFO ] 2025-09-06 14:19:33.408 [main] DetailPage - Đã chọn trạng thái tài khoản: Login
+{INFO ] 2025-09-06 14:19:33.424 [main] DetailPage - Đã chờ element (//button[@class='submit'])[2] hiển thị
+{INFO ] 2025-09-06 14:19:33.455 [main] DetailPage - Đã click vào element: (//button[@class='submit'])[2]
+{INFO ] 2025-09-06 14:19:36.463 [main] DetailPage - Đã mua sản phẩm thành công với level: Basic
+{INFO ] 2025-09-06 14:19:36.463 [main] DetailPage - Đã chờ element //h1 hiển thị
+{INFO ] 2025-09-06 14:19:36.470 [main] DetailPage - Lấy text từ element //h1 = 'I will create a professional cash cow youtube channel'
+{INFO ] 2025-09-06 14:19:41.644 [main] ProfilePage - Đã chờ element (//div[@class='row']//h1)[1] hiển thị
+{INFO ] 2025-09-06 14:19:41.644 [main] ProfilePage - Lấy text từ element (//div[@class='row']//h1)[1] = 'I will create a professional cash cow youtube channel'
+{INFO ] 2025-09-06 14:19:41.644 [main] ProfilePage - Kiểm tra sản phẩm thứ 1: 'I will create a professional cash cow youtube channel'
+{INFO ] 2025-09-06 14:19:41.644 [main] ProfilePage - Đã tìm thấy sản phẩm khớp: I will create a professional cash cow youtube channel
+{INFO ] 2025-09-06 14:19:41.662 [main] DetailTest - Test testBuyProductWithUserAccount thành công
+{INFO ] 2025-09-06 14:19:41.662 [main] DetailTest - === Đóng Browser cho test case testBuyProductWithUserAccount ===
+{INFO ] 2025-09-10 12:17:13.239 [main] RegisterTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-10 12:17:21.412 [main] RegisterTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-10 12:17:23.883 [main] RegisterPage - Đã chờ element //*[contains(@id,'name')] hiển thị
+{INFO ] 2025-09-10 12:17:23.952 [main] RegisterPage - Đã nhập 'Tào Tháo' vào element: //*[contains(@id,'name')]
+{INFO ] 2025-09-10 12:17:23.959 [main] RegisterPage - Đã chờ element input[id='email'] hiển thị
+{INFO ] 2025-09-10 12:17:24.091 [main] RegisterPage - Đã nhập 'tuantest0808@hotmail.com' vào element: input[id='email']
+{INFO ] 2025-09-10 12:17:24.097 [main] RegisterPage - Đã chờ element //input[@placeholder='Your Password'] hiển thị
+{INFO ] 2025-09-10 12:17:24.146 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Your Password']
+{INFO ] 2025-09-10 12:17:24.153 [main] RegisterPage - Đã chờ element //input[@placeholder='Repeat your password'] hiển thị
+{INFO ] 2025-09-10 12:17:24.202 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Repeat your password']
+{INFO ] 2025-09-10 12:17:24.209 [main] RegisterPage - Đã chờ element //*[contains(@id,'phone')] hiển thị
+{INFO ] 2025-09-10 12:17:24.271 [main] RegisterPage - Đã nhập '0933361765' vào element: //*[contains(@id,'phone')]
+{INFO ] 2025-09-10 12:17:24.271 [main] RegisterPage - Đã chờ element input[id=birthday] hiển thị
+{INFO ] 2025-09-10 12:17:24.320 [main] RegisterPage - Đã click vào element: input[id=birthday]
+{WARN ] 2025-09-10 12:17:25.370 [main] RegisterPage - [Bug] Birthday input không nhận giá trị. Expected=08082004 | Actual=2004-08-08
+{INFO ] 2025-09-10 12:17:25.375 [main] RegisterPage - Đã chờ element //*[contains(text(),'Male')] hiển thị
+{INFO ] 2025-09-10 12:17:25.393 [main] RegisterPage - Đã click vào element: //*[contains(text(),'Male')]
+{INFO ] 2025-09-10 12:17:25.397 [main] RegisterPage - Đã chờ element //*[contains(@id,'agree-term')] hiển thị
+{INFO ] 2025-09-10 12:17:25.426 [main] RegisterPage - Đã click vào element: //*[contains(@id,'agree-term')]
+{INFO ] 2025-09-10 12:17:25.432 [main] RegisterPage - Đã chờ element //button[normalize-space()='Submit'] hiển thị
+{INFO ] 2025-09-10 12:17:25.458 [main] RegisterPage - Đã click vào element: //button[normalize-space()='Submit']
+{INFO ] 2025-09-10 12:17:28.466 [main] LoginPage - Đã chờ element //*[contains(@id,'email')] hiển thị
+{INFO ] 2025-09-10 12:17:28.592 [main] LoginPage - Đã nhập 'tuantest0808@hotmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-09-10 12:17:29.605 [main] LoginPage - Đã chờ element //*[contains(@id,'password')] hiển thị
+{INFO ] 2025-09-10 12:17:29.654 [main] LoginPage - Đã nhập 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-09-10 12:17:30.674 [main] LoginPage - Đã chờ element //*[contains(@type,'submit')] hiển thị
+{INFO ] 2025-09-10 12:17:30.707 [main] LoginPage - Đã click vào element: //*[contains(@type,'submit')]
+{INFO ] 2025-09-10 12:17:37.721 [main] RegisterTest - Current URL after register: https://demo5.cybersoft.edu.vn/profile
+{INFO ] 2025-09-10 12:17:37.721 [main] RegisterTest - Test testRegisterWithValidData thành công
+{INFO ] 2025-09-10 12:17:37.721 [main] RegisterTest - === Đóng Browser cho test case testRegisterWithValidData ===
+{INFO ] 2025-09-10 13:22:52.344 [main] RegisterTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-10 13:23:00.510 [main] RegisterTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-10 13:23:02.559 [main] RegisterPage - Đã chờ element //*[contains(@id,'name')] hiển thị
+{INFO ] 2025-09-10 13:23:02.638 [main] RegisterPage - Đã nhập 'Tào Tháo' vào element: //*[contains(@id,'name')]
+{INFO ] 2025-09-10 13:23:02.647 [main] RegisterPage - Đã chờ element input[id='email'] hiển thị
+{INFO ] 2025-09-10 13:23:02.801 [main] RegisterPage - Đã nhập 'tuantest0808@hotmail.com' vào element: input[id='email']
+{INFO ] 2025-09-10 13:23:02.806 [main] RegisterPage - Đã chờ element //input[@placeholder='Your Password'] hiển thị
+{INFO ] 2025-09-10 13:23:02.861 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Your Password']
+{INFO ] 2025-09-10 13:23:02.864 [main] RegisterPage - Đã chờ element //input[@placeholder='Repeat your password'] hiển thị
+{INFO ] 2025-09-10 13:23:02.924 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Repeat your password']
+{INFO ] 2025-09-10 13:23:02.929 [main] RegisterPage - Đã chờ element //*[contains(@id,'phone')] hiển thị
+{INFO ] 2025-09-10 13:23:02.996 [main] RegisterPage - Đã nhập '0933361765' vào element: //*[contains(@id,'phone')]
+{INFO ] 2025-09-10 13:23:03.001 [main] RegisterPage - Đã chờ element input[id=birthday] hiển thị
+{INFO ] 2025-09-10 13:23:03.052 [main] RegisterPage - Đã click vào element: input[id=birthday]
+{WARN ] 2025-09-10 13:23:04.111 [main] RegisterPage - [Bug] Birthday input không nhận giá trị. Expected=08082004 | Actual=2004-08-08
+{INFO ] 2025-09-10 13:23:04.116 [main] RegisterPage - Đã chờ element //*[contains(text(),'Male')] hiển thị
+{INFO ] 2025-09-10 13:23:04.144 [main] RegisterPage - Đã click vào element: //*[contains(text(),'Male')]
+{INFO ] 2025-09-10 13:23:04.148 [main] RegisterPage - Đã chờ element //*[contains(@id,'agree-term')] hiển thị
+{INFO ] 2025-09-10 13:23:04.175 [main] RegisterPage - Đã click vào element: //*[contains(@id,'agree-term')]
+{INFO ] 2025-09-10 13:23:04.179 [main] RegisterPage - Đã chờ element //button[normalize-space()='Submit'] hiển thị
+{INFO ] 2025-09-10 13:23:04.207 [main] RegisterPage - Đã click vào element: //button[normalize-space()='Submit']
+{INFO ] 2025-09-10 13:23:07.218 [main] LoginPage - Đã chờ element //*[contains(@id,'email')] hiển thị
+{INFO ] 2025-09-10 13:23:07.348 [main] LoginPage - Đã nhập 'tuantest0808@hotmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-09-10 13:23:08.358 [main] LoginPage - Đã chờ element //*[contains(@id,'password')] hiển thị
+{INFO ] 2025-09-10 13:23:08.413 [main] LoginPage - Đã nhập 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-09-10 13:23:09.430 [main] LoginPage - Đã chờ element //*[contains(@type,'submit')] hiển thị
+{INFO ] 2025-09-10 13:23:09.463 [main] LoginPage - Đã click vào element: //*[contains(@type,'submit')]
+{ERROR] 2025-09-10 13:23:13.518 [main] RegisterTest - Test testRegisterWithValidData thất bại
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForTimeout(FrameImpl.java:996) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.PageImpl.waitForTimeout(PageImpl.java:1532) ~[playwright-1.53.0.jar:1.53.0]
+	at Pages.LoginPage.login(LoginPage.java:22) ~[classes/:?]
+	at Tests.RegisterTest.testRegisterWithValidData(RegisterTest.java:48) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 31 more
+{ERROR] 2025-09-10 13:23:13.541 [main] RegisterTest - Không thể chụp screenshot cho test testRegisterWithValidData
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\dispatchers\dispatcher.js:243:69)
+    at transport.onmessage (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\cli\driver.js:53:59)
+    at Immediate._onImmediate (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\utils\pipeTransport.js:76:16)
+    at process.processImmediate (node:internal/timers:485:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.PageImpl.screenshotImpl(PageImpl.java:1181) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.PageImpl.screenshot(PageImpl.java:1126) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BaseTest.tearDown(BaseTest.java:49) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\dispatchers\dispatcher.js:243:69)
+    at transport.onmessage (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\cli\driver.js:53:59)
+    at Immediate._onImmediate (C:\Users\minht\AppData\Local\Temp\playwright-java-18342830977371375551\package\lib\server\utils\pipeTransport.js:76:16)
+    at process.processImmediate (node:internal/timers:485:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 35 more
+{INFO ] 2025-09-10 13:23:13.543 [main] RegisterTest - === Đóng Browser cho test case testRegisterWithValidData ===
+{INFO ] 2025-09-10 13:30:36.957 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-10 13:30:41.999 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-10 13:30:45.027 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{ERROR] 2025-09-10 13:30:55.158 [main] LoginPage - Lỗi khi chờ element hiển thị: //*[contains(@id,'email')]
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//*[contains(@id,'email')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.typeByLocator(BasePage.java:35) ~[classes/:?]
+	at Pages.LoginPage.login(LoginPage.java:17) ~[classes/:?]
+	at Tests.HomeTest.testTransferToProfilePage(HomeTest.java:46) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//*[contains(@id,'email')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 33 more
+{ERROR] 2025-09-10 13:30:55.180 [main] LoginPage - Lỗi khi nhập vào element: //*[contains(@id,'email')]
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//*[contains(@id,'email')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.typeByLocator(BasePage.java:35) ~[classes/:?]
+	at Pages.LoginPage.login(LoginPage.java:17) ~[classes/:?]
+	at Tests.HomeTest.testTransferToProfilePage(HomeTest.java:46) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//*[contains(@id,'email')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 33 more
+{ERROR] 2025-09-10 13:30:55.219 [main] HomeTest - Test testTransferToProfilePage thất bại
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//*[contains(@id,'email')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.typeByLocator(BasePage.java:35) ~[classes/:?]
+	at Pages.LoginPage.login(LoginPage.java:17) ~[classes/:?]
+	at Tests.HomeTest.testTransferToProfilePage(HomeTest.java:46) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//*[contains(@id,'email')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 33 more
+{ERROR] 2025-09-10 13:30:55.233 [main] HomeTest - Không thể chụp screenshot cho test testTransferToProfilePage
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:243:69)
+    at transport.onmessage (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\cli\driver.js:53:59)
+    at Immediate._onImmediate (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\utils\pipeTransport.js:76:16)
+    at process.processImmediate (node:internal/timers:485:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.PageImpl.screenshotImpl(PageImpl.java:1181) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.PageImpl.screenshot(PageImpl.java:1126) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BaseTest.tearDown(BaseTest.java:49) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\dispatchers\dispatcher.js:243:69)
+    at transport.onmessage (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\cli\driver.js:53:59)
+    at Immediate._onImmediate (C:\Users\minht\AppData\Local\Temp\playwright-java-5980659620513815266\package\lib\server\utils\pipeTransport.js:76:16)
+    at process.processImmediate (node:internal/timers:485:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 35 more
+{INFO ] 2025-09-10 13:30:55.235 [main] HomeTest - === Đóng Browser cho test case testTransferToProfilePage ===
+{INFO ] 2025-09-10 13:31:50.557 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-10 13:31:55.398 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-10 13:31:57.774 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-10 13:31:59.815 [main] HomePage - Đã chờ element //nav[@class='header_navbar']//a[text()='Sign in'] hiển thị
+{INFO ] 2025-09-10 13:31:59.869 [main] HomePage - Đã click vào element: //nav[@class='header_navbar']//a[text()='Sign in']
+{INFO ] 2025-09-10 13:31:59.874 [main] LoginPage - Đã chờ element //*[contains(@id,'email')] hiển thị
+{INFO ] 2025-09-10 13:32:00.016 [main] LoginPage - Đã nhập 'tuantest0808@gmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-09-10 13:32:01.030 [main] LoginPage - Đã chờ element //*[contains(@id,'password')] hiển thị
+{INFO ] 2025-09-10 13:32:01.084 [main] LoginPage - Đã nhập 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-09-10 13:32:02.091 [main] LoginPage - Đã chờ element //*[contains(@type,'submit')] hiển thị
+{INFO ] 2025-09-10 13:32:02.114 [main] LoginPage - Đã click vào element: //*[contains(@type,'submit')]
+{INFO ] 2025-09-10 13:32:06.122 [main] LoginPage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-10 13:32:06.188 [main] LoginPage - Đã click vào element: //a[@class='logo active']
+{INFO ] 2025-09-10 13:32:45.297 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-10 13:32:50.056 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-10 13:32:58.002 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-10 13:33:00.051 [main] HomePage - Đã chờ element //nav[@class='header_navbar']//a[text()='Sign in'] hiển thị
+{INFO ] 2025-09-10 13:33:00.104 [main] HomePage - Đã click vào element: //nav[@class='header_navbar']//a[text()='Sign in']
+{INFO ] 2025-09-10 13:33:00.110 [main] LoginPage - Đã chờ element //*[contains(@id,'email')] hiển thị
+{INFO ] 2025-09-10 13:33:00.274 [main] LoginPage - Đã nhập 'tuantest0808@hotmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-09-10 13:33:01.281 [main] LoginPage - Đã chờ element //*[contains(@id,'password')] hiển thị
+{INFO ] 2025-09-10 13:33:01.333 [main] LoginPage - Đã nhập 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-09-10 13:33:02.342 [main] LoginPage - Đã chờ element //*[contains(@type,'submit')] hiển thị
+{INFO ] 2025-09-10 13:33:02.378 [main] LoginPage - Đã click vào element: //*[contains(@type,'submit')]
+{INFO ] 2025-09-10 13:33:06.393 [main] LoginPage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-10 13:33:06.468 [main] LoginPage - Đã click vào element: //a[@class='logo active']
+{INFO ] 2025-09-10 13:33:10.488 [main] HomePage - Đã chờ element //a[@href='/profile'] hiển thị
+{INFO ] 2025-09-10 13:33:10.543 [main] HomePage - Đã click vào element: //a[@href='/profile']
+{INFO ] 2025-09-10 13:33:13.557 [main] HomePage - Đã chuyển đến page profile thành công
+{INFO ] 2025-09-10 13:33:13.569 [main] HomeTest - Test testTransferToProfilePage thành công
+{INFO ] 2025-09-10 13:33:13.570 [main] HomeTest - === Đóng Browser cho test case testTransferToProfilePage ===
+{INFO ] 2025-09-11 13:27:35.839 [main] RegisterTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-11 13:27:44.152 [main] RegisterTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-11 13:27:46.910 [main] RegisterPage - Đã chờ element //*[contains(@id,'name')] hiển thị
+{INFO ] 2025-09-11 13:27:46.984 [main] RegisterPage - Đã nhập 'Tào Tháo' vào element: //*[contains(@id,'name')]
+{INFO ] 2025-09-11 13:27:47.001 [main] RegisterPage - Đã chờ element input[id='email'] hiển thị
+{INFO ] 2025-09-11 13:27:47.155 [main] RegisterPage - Đã nhập 'tuantest0808@hotmail.com' vào element: input[id='email']
+{INFO ] 2025-09-11 13:27:47.160 [main] RegisterPage - Đã chờ element //input[@placeholder='Your Password'] hiển thị
+{INFO ] 2025-09-11 13:27:47.217 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Your Password']
+{INFO ] 2025-09-11 13:27:47.223 [main] RegisterPage - Đã chờ element //input[@placeholder='Repeat your password'] hiển thị
+{INFO ] 2025-09-11 13:27:47.283 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Repeat your password']
+{INFO ] 2025-09-11 13:27:47.287 [main] RegisterPage - Đã chờ element //*[contains(@id,'phone')] hiển thị
+{INFO ] 2025-09-11 13:27:47.352 [main] RegisterPage - Đã nhập '0933361765' vào element: //*[contains(@id,'phone')]
+{INFO ] 2025-09-11 13:27:47.356 [main] RegisterPage - Đã chờ element input[id=birthday] hiển thị
+{INFO ] 2025-09-11 13:27:47.410 [main] RegisterPage - Đã click vào element: input[id=birthday]
+{WARN ] 2025-09-11 13:27:48.460 [main] RegisterPage - [Bug] Birthday input không nhận giá trị. Expected=08082004 | Actual=2004-08-08
+{INFO ] 2025-09-11 13:27:48.464 [main] RegisterPage - Đã chờ element //*[contains(text(),'Male')] hiển thị
+{INFO ] 2025-09-11 13:27:48.487 [main] RegisterPage - Đã click vào element: //*[contains(text(),'Male')]
+{INFO ] 2025-09-11 13:27:48.491 [main] RegisterPage - Đã chờ element //*[contains(@id,'agree-term')] hiển thị
+{INFO ] 2025-09-11 13:27:48.521 [main] RegisterPage - Đã click vào element: //*[contains(@id,'agree-term')]
+{INFO ] 2025-09-11 13:27:48.525 [main] RegisterPage - Đã chờ element //button[normalize-space()='Submit'] hiển thị
+{INFO ] 2025-09-11 13:27:48.558 [main] RegisterPage - Đã click vào element: //button[normalize-space()='Submit']
+{INFO ] 2025-09-11 13:27:51.575 [main] LoginPage - Đã chờ element //*[contains(@id,'email')] hiển thị
+{INFO ] 2025-09-11 13:27:51.711 [main] LoginPage - Đã nhập 'tuantest0808@hotmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-09-11 13:27:52.716 [main] LoginPage - Đã chờ element //*[contains(@id,'password')] hiển thị
+{INFO ] 2025-09-11 13:27:52.772 [main] LoginPage - Đã nhập 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-09-11 13:27:53.784 [main] LoginPage - Đã chờ element //*[contains(@type,'submit')] hiển thị
+{INFO ] 2025-09-11 13:27:53.818 [main] LoginPage - Đã click vào element: //*[contains(@type,'submit')]
+{INFO ] 2025-09-11 13:28:00.837 [main] RegisterTest - Current URL after register: https://demo5.cybersoft.edu.vn/profile
+{INFO ] 2025-09-11 13:28:00.854 [main] RegisterTest - Test testRegisterWithValidData thành công
+{INFO ] 2025-09-11 13:28:00.855 [main] RegisterTest - === Đóng Browser cho test case testRegisterWithValidData ===
+{INFO ] 2025-09-11 13:29:53.063 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-11 13:29:58.068 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-11 13:30:05.985 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-11 13:30:11.935 [main] HomePage - Đã chờ element //div[@class='categoriesmenu_li']//p[contains(text(),'Graphic')] hiển thị
+{INFO ] 2025-09-11 13:30:12.017 [main] HomePage - Đã hover vào element: //div[@class='categoriesmenu_li']//p[contains(text(),'Graphic')]
+{INFO ] 2025-09-11 13:30:12.024 [main] HomePage - Đã chờ element //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')] hiển thị
+{INFO ] 2025-09-11 13:30:12.036 [main] HomePage - Đã chờ element //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')] hiển thị
+{INFO ] 2025-09-11 13:30:12.103 [main] HomePage - Đã click vào element: //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')]
+{ERROR] 2025-09-11 13:30:15.111 [main] HomePage - Điều chuyển thất bại
+{ERROR] 2025-09-11 13:30:15.140 [main] HomeTest - Test testTransferToListPageBySubHeaderNavigate thất bại
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:67) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testTransferToListPageBySubHeaderNavigate(HomeTest.java:67) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-11 13:30:15.488 [main] HomeTest - === Đóng Browser cho test case testTransferToListPageBySubHeaderNavigate ===
+{INFO ] 2025-09-11 13:33:24.954 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-11 13:33:30.127 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-11 13:33:42.377 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-11 13:33:47.311 [main] HomePage - Đã chờ element //div[@class='categoriesmenu_li']//p[contains(text(),'Graphic')] hiển thị
+{INFO ] 2025-09-11 13:33:47.366 [main] HomePage - Đã hover vào element: //div[@class='categoriesmenu_li']//p[contains(text(),'Graphic')]
+{INFO ] 2025-09-11 13:33:47.373 [main] HomePage - Đã chờ element //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')] hiển thị
+{INFO ] 2025-09-11 13:33:47.397 [main] HomePage - Đã chờ element //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')] hiển thị
+{INFO ] 2025-09-11 13:33:47.455 [main] HomePage - Đã click vào element: //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')]
+{ERROR] 2025-09-11 13:33:50.464 [main] HomePage - Điều chuyển thất bại
+{ERROR] 2025-09-11 13:33:50.488 [main] HomeTest - Test testTransferToListPageBySubHeaderNavigate thất bại
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:67) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testTransferToListPageBySubHeaderNavigate(HomeTest.java:67) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-11 13:33:50.810 [main] HomeTest - === Đóng Browser cho test case testTransferToListPageBySubHeaderNavigate ===
+{INFO ] 2025-09-11 13:34:44.098 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-11 13:34:48.908 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-11 13:34:54.460 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-11 13:34:56.536 [main] HomePage - Đã chờ element //div[@class='categoriesmenu_li']//p[contains(text(),'Graphic')] hiển thị
+{INFO ] 2025-09-11 13:34:56.598 [main] HomePage - Đã hover vào element: //div[@class='categoriesmenu_li']//p[contains(text(),'Graphic')]
+{INFO ] 2025-09-11 13:34:56.607 [main] HomePage - Đã chờ element //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')] hiển thị
+{INFO ] 2025-09-11 13:34:56.611 [main] HomePage - Đã chờ element //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')] hiển thị
+{INFO ] 2025-09-11 13:34:56.663 [main] HomePage - Đã click vào element: //p[contains(text(),'Graphic')]/ancestor::div[@class='categoriesmenu_li']//div//a[contains(text(),'App')]
+{ERROR] 2025-09-11 13:34:59.669 [main] HomePage - Điều chuyển thất bại
+{ERROR] 2025-09-11 13:34:59.693 [main] HomeTest - Test testTransferToListPageBySubHeaderNavigate thất bại
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:67) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testTransferToListPageBySubHeaderNavigate(HomeTest.java:67) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-11 13:34:59.970 [main] HomeTest - === Đóng Browser cho test case testTransferToListPageBySubHeaderNavigate ===
+{INFO ] 2025-09-22 19:22:27.502 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 19:36:08.596 [main] RegisterTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 19:45:17.925 [main] RegisterTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 19:46:27.603 [main] RegisterTest - === Khởi tạo Playwright và Browser cho test mới ===
+{WARN ] 2025-09-22 19:56:28.604 [main] RegisterTest - Test testRegisterWithValidData bị skip
+{INFO ] 2025-09-22 19:56:28.604 [main] RegisterTest - === Đóng Browser cho test case testRegisterWithValidData ===
+{INFO ] 2025-09-22 20:01:53.993 [main] RegisterTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:04:28.516 [main] RegisterTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:04:52.673 [main] RegisterPage - Đã chờ element //*[contains(@id,'name')] hiển thị
+{INFO ] 2025-09-22 20:04:52.768 [main] RegisterPage - Đã nhập 'Tào Tháo' vào element: //*[contains(@id,'name')]
+{INFO ] 2025-09-22 20:04:52.783 [main] RegisterPage - Đã chờ element input[id='email'] hiển thị
+{INFO ] 2025-09-22 20:04:52.917 [main] RegisterPage - Đã nhập 'tuantest0808@hotmail.com' vào element: input[id='email']
+{INFO ] 2025-09-22 20:04:52.922 [main] RegisterPage - Đã chờ element //input[@placeholder='Your Password'] hiển thị
+{INFO ] 2025-09-22 20:04:52.973 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Your Password']
+{INFO ] 2025-09-22 20:04:52.978 [main] RegisterPage - Đã chờ element //input[@placeholder='Repeat your password'] hiển thị
+{INFO ] 2025-09-22 20:04:53.034 [main] RegisterPage - Đã nhập 'Weber080804' vào element: //input[@placeholder='Repeat your password']
+{INFO ] 2025-09-22 20:04:53.040 [main] RegisterPage - Đã chờ element //*[contains(@id,'phone')] hiển thị
+{INFO ] 2025-09-22 20:04:53.089 [main] RegisterPage - Đã nhập '0933361765' vào element: //*[contains(@id,'phone')]
+{INFO ] 2025-09-22 20:04:53.095 [main] RegisterPage - Đã chờ element input[id=birthday] hiển thị
+{INFO ] 2025-09-22 20:04:53.133 [main] RegisterPage - Đã click vào element: input[id=birthday]
+{WARN ] 2025-09-22 20:04:54.171 [main] RegisterPage - [Bug] Birthday input không nhận giá trị. Expected=08082004 | Actual=2004-08-08
+{INFO ] 2025-09-22 20:04:54.174 [main] RegisterPage - Đã chờ element //*[contains(text(),'Male')] hiển thị
+{INFO ] 2025-09-22 20:04:54.202 [main] RegisterPage - Đã click vào element: //*[contains(text(),'Male')]
+{INFO ] 2025-09-22 20:04:54.206 [main] RegisterPage - Đã chờ element //*[contains(@id,'agree-term')] hiển thị
+{INFO ] 2025-09-22 20:04:54.233 [main] RegisterPage - Đã click vào element: //*[contains(@id,'agree-term')]
+{INFO ] 2025-09-22 20:04:54.237 [main] RegisterPage - Đã chờ element //button[normalize-space()='Submit'] hiển thị
+{INFO ] 2025-09-22 20:04:54.265 [main] RegisterPage - Đã click vào element: //button[normalize-space()='Submit']
+{INFO ] 2025-09-22 20:05:00.269 [main] RegisterTest - Current URL after register: https://demo5.cybersoft.edu.vn/register
+{ERROR] 2025-09-22 20:05:00.296 [main] RegisterTest - Test testRegisterWithValidData thất bại
+java.lang.AssertionError: Đã đăng kí thành công expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.RegisterTest.testRegisterWithValidData(RegisterTest.java:54) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-22 20:05:01.410 [main] RegisterTest - === Đóng Browser cho test case testRegisterWithValidData ===
+{INFO ] 2025-09-22 20:05:56.714 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:05:59.107 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:06:23.225 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{ERROR] 2025-09-22 20:06:55.265 [main] HomePage - Lỗi khi chờ element hiển thị: //div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]
+com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.clickByLocator(BasePage.java:23) ~[classes/:?]
+	at Pages.HomePage.transferToPageByClickBtn(HomePage.java:20) ~[classes/:?]
+	at Pages.HomePage.transferByNavigate(HomePage.java:33) ~[classes/:?]
+	at Tests.HomeTest.testTransferToPopularCategoriesPage(HomeTest.java:71) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 34 more
+{ERROR] 2025-09-22 20:06:55.275 [main] HomePage - Lỗi khi click vào element: //div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]
+com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.clickByLocator(BasePage.java:23) ~[classes/:?]
+	at Pages.HomePage.transferToPageByClickBtn(HomePage.java:20) ~[classes/:?]
+	at Pages.HomePage.transferByNavigate(HomePage.java:33) ~[classes/:?]
+	at Tests.HomeTest.testTransferToPopularCategoriesPage(HomeTest.java:71) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 34 more
+{ERROR] 2025-09-22 20:06:55.299 [main] HomeTest - Test testTransferToPopularCategoriesPage thất bại
+com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.clickByLocator(BasePage.java:23) ~[classes/:?]
+	at Pages.HomePage.transferToPageByClickBtn(HomePage.java:20) ~[classes/:?]
+	at Pages.HomePage.transferByNavigate(HomePage.java:33) ~[classes/:?]
+	at Tests.HomeTest.testTransferToPopularCategoriesPage(HomeTest.java:71) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-17788949525680966281\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div//p[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 34 more
+{INFO ] 2025-09-22 20:06:56.238 [main] HomeTest - === Đóng Browser cho test case testTransferToPopularCategoriesPage ===
+{INFO ] 2025-09-22 20:14:38.832 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:14:41.420 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:14:48.370 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{ERROR] 2025-09-22 20:15:20.407 [main] HomePage - Lỗi khi chờ element hiển thị: //div[@class='d-flex popular']//div[contains(text(),'WorldPress')]
+com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.clickByLocator(BasePage.java:23) ~[classes/:?]
+	at Pages.HomePage.transferToPageByClickBtn(HomePage.java:20) ~[classes/:?]
+	at Pages.HomePage.transferByNavigate(HomePage.java:33) ~[classes/:?]
+	at Tests.HomeTest.testTransferToPopularCategoriesPage(HomeTest.java:71) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 34 more
+{ERROR] 2025-09-22 20:15:20.417 [main] HomePage - Lỗi khi click vào element: //div[@class='d-flex popular']//div[contains(text(),'WorldPress')]
+com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.clickByLocator(BasePage.java:23) ~[classes/:?]
+	at Pages.HomePage.transferToPageByClickBtn(HomePage.java:20) ~[classes/:?]
+	at Pages.HomePage.transferByNavigate(HomePage.java:33) ~[classes/:?]
+	at Tests.HomeTest.testTransferToPopularCategoriesPage(HomeTest.java:71) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 34 more
+{ERROR] 2025-09-22 20:15:20.439 [main] HomeTest - Test testTransferToPopularCategoriesPage thất bại
+com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.clickByLocator(BasePage.java:23) ~[classes/:?]
+	at Pages.HomePage.transferToPageByClickBtn(HomePage.java:20) ~[classes/:?]
+	at Pages.HomePage.transferByNavigate(HomePage.java:33) ~[classes/:?]
+	at Tests.HomeTest.testTransferToPopularCategoriesPage(HomeTest.java:71) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\progress.js:76:26)
+    at Frame.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\frames.js:615:23)
+    at FrameDispatcher.waitForSelector (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\frameDispatcher.js:82:116)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:88:40)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-7917732357986847478\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//div[@class='d-flex popular']//div[contains(text(),'WorldPress')]") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 34 more
+{INFO ] 2025-09-22 20:15:21.294 [main] HomeTest - === Đóng Browser cho test case testTransferToPopularCategoriesPage ===
+{INFO ] 2025-09-22 20:16:44.106 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:16:46.627 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:17:06.297 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-22 20:17:08.347 [main] HomePage - Đã chờ element //div[@class='d-flex popular']//div[contains(text(),'Logo')] hiển thị
+{INFO ] 2025-09-22 20:17:08.385 [main] HomePage - Đã click vào element: //div[@class='d-flex popular']//div[contains(text(),'Logo')]
+{ERROR] 2025-09-22 20:17:11.386 [main] HomePage - Điều chuyển thất bại
+{ERROR] 2025-09-22 20:17:11.408 [main] HomeTest - Test testTransferToPopularCategoriesPage thất bại
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:67) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testTransferToPopularCategoriesPage(HomeTest.java:71) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-22 20:17:12.279 [main] HomeTest - === Đóng Browser cho test case testTransferToPopularCategoriesPage ===
+{INFO ] 2025-09-22 20:20:09.081 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:20:11.401 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:20:34.720 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{ERROR] 2025-09-22 20:20:36.758 [main] HomePage - Lỗi khi kiểm tra refresh/scroll: class java.lang.Integer cannot be cast to class java.lang.Double (java.lang.Integer and java.lang.Double are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.Double (java.lang.Integer and java.lang.Double are in module java.base of loader 'bootstrap')
+	at Pages.HomePage.logoAction(HomePage.java:60) ~[classes/:?]
+	at Tests.HomeTest.testRefreshPage(HomeTest.java:55) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{ERROR] 2025-09-22 20:20:36.791 [main] HomeTest - Test testRefreshPage thất bại
+java.lang.AssertionError: Chức năng làm mới trang hoặc kéo lên đầu trang khi click Logo không hoạt động expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testRefreshPage(HomeTest.java:55) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-22 20:20:37.664 [main] HomeTest - === Đóng Browser cho test case testRefreshPage ===
+{INFO ] 2025-09-22 20:23:20.594 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:23:22.907 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{WARN ] 2025-09-22 20:23:53.062 [main] HomeTest - Test testRefreshPage bị skip
+{INFO ] 2025-09-22 20:23:53.062 [main] HomeTest - === Đóng Browser cho test case testRefreshPage ===
+{INFO ] 2025-09-22 20:24:17.114 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:24:20.191 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{WARN ] 2025-09-22 20:24:50.380 [main] HomeTest - Test testRefreshPage bị skip
+{INFO ] 2025-09-22 20:24:50.380 [main] HomeTest - === Đóng Browser cho test case testRefreshPage ===
+{INFO ] 2025-09-22 20:25:04.364 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:25:07.015 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:25:15.493 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{ERROR] 2025-09-22 20:25:17.544 [main] HomePage - Lỗi khi kiểm tra refresh/scroll: class java.lang.Integer cannot be cast to class java.lang.Double (java.lang.Integer and java.lang.Double are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.Double (java.lang.Integer and java.lang.Double are in module java.base of loader 'bootstrap')
+	at Pages.HomePage.logoAction(HomePage.java:61) ~[classes/:?]
+	at Tests.HomeTest.testRefreshPage(HomeTest.java:55) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{ERROR] 2025-09-22 20:25:17.603 [main] HomeTest - Test testRefreshPage thất bại
+java.lang.AssertionError: Chức năng làm mới trang hoặc kéo lên đầu trang khi click Logo không hoạt động expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testRefreshPage(HomeTest.java:55) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-22 20:25:18.532 [main] HomeTest - === Đóng Browser cho test case testRefreshPage ===
+{INFO ] 2025-09-22 20:28:29.020 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:28:31.395 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:28:38.230 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{ERROR] 2025-09-22 20:29:03.444 [main] HomePage - Lỗi khi chờ element hiển thị: //input[@placeholder='Find Services']
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//input[@placeholder='Find Services']") to be visible
+-     51 × locator resolved to hidden <input class="inp" type="search" name="resultParam" placeholder="Find Services"/>
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.fillByLocator(BasePage.java:45) ~[classes/:?]
+	at Pages.HomePage.search(HomePage.java:94) ~[classes/:?]
+	at Tests.HomeTest.testSearch(HomeTest.java:79) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//input[@placeholder='Find Services']") to be visible
+-     51 × locator resolved to hidden <input class="inp" type="search" name="resultParam" placeholder="Find Services"/>
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 33 more
+{ERROR] 2025-09-22 20:29:03.463 [main] HomePage - Lỗi khi nhập vào element: //input[@placeholder='Find Services']
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//input[@placeholder='Find Services']") to be visible
+-     51 × locator resolved to hidden <input class="inp" type="search" name="resultParam" placeholder="Find Services"/>
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.fillByLocator(BasePage.java:45) ~[classes/:?]
+	at Pages.HomePage.search(HomePage.java:94) ~[classes/:?]
+	at Tests.HomeTest.testSearch(HomeTest.java:79) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//input[@placeholder='Find Services']") to be visible
+-     51 × locator resolved to hidden <input class="inp" type="search" name="resultParam" placeholder="Find Services"/>
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 33 more
+{ERROR] 2025-09-22 20:29:03.501 [main] HomeTest - Test testSearch thất bại
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//input[@placeholder='Find Services']") to be visible
+-     51 × locator resolved to hidden <input class="inp" type="search" name="resultParam" placeholder="Find Services"/>
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BasePage.waitForVisibleByLocator(BasePage.java:174) ~[classes/:?]
+	at Base.BasePage.fillByLocator(BasePage.java:45) ~[classes/:?]
+	at Pages.HomePage.search(HomePage.java:94) ~[classes/:?]
+	at Tests.HomeTest.testSearch(HomeTest.java:79) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\stackTrace.js:32:17)
+    at LongStandingScope._race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:87:58)
+    at LongStandingScope.race (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\utils\isomorphic\manualPromise.js:80:17)
+    at FrameDispatcher._handleCommand (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:90:36)
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:309:39)
+}
+Call log:
+-   - waiting for locator("//input[@placeholder='Find Services']") to be visible
+-     51 × locator resolved to hidden <input class="inp" type="search" name="resultParam" placeholder="Find Services"/>
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 33 more
+{ERROR] 2025-09-22 20:29:03.515 [main] HomeTest - Không thể chụp screenshot cho test testSearch
+com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:243:69)
+    at transport.onmessage (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\cli\driver.js:53:59)
+    at Immediate._onImmediate (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\utils\pipeTransport.js:76:16)
+    at process.processImmediate (node:internal/timers:485:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.PageImpl.screenshotImpl(PageImpl.java:1181) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.PageImpl.screenshot(PageImpl.java:1126) ~[playwright-1.53.0.jar:1.53.0]
+	at Base.BaseTest.tearDown(BaseTest.java:49) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\dispatchers\dispatcher.js:243:69)
+    at transport.onmessage (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\cli\driver.js:53:59)
+    at Immediate._onImmediate (C:\Users\minht\AppData\Local\Temp\playwright-java-15352754706993411876\package\lib\server\utils\pipeTransport.js:76:16)
+    at process.processImmediate (node:internal/timers:485:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214) ~[playwright-1.53.0.jar:1.53.0]
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136) ~[playwright-1.53.0.jar:1.53.0]
+	... 35 more
+{INFO ] 2025-09-22 20:29:03.517 [main] HomeTest - === Đóng Browser cho test case testSearch ===
+{INFO ] 2025-09-22 20:29:11.741 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:29:14.057 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:29:44.025 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-22 20:29:46.078 [main] HomePage - Đã chờ element //input[@placeholder='Find Services'] hiển thị
+{INFO ] 2025-09-22 20:29:46.101 [main] HomePage - Đã nhập 's' vào element: //input[@placeholder='Find Services']
+{INFO ] 2025-09-22 20:29:46.108 [main] HomePage - Đã chờ element //div[@class='header_search']//button hiển thị
+{INFO ] 2025-09-22 20:29:46.147 [main] HomePage - Đã click vào element: //div[@class='header_search']//button
+{ERROR] 2025-09-22 20:29:46.179 [main] HomeTest - Test testSearch thất bại
+java.lang.AssertionError: Chức năng tìm kiếm không hoạt động expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testSearch(HomeTest.java:79) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-22 20:29:47.124 [main] HomeTest - === Đóng Browser cho test case testSearch ===
+{INFO ] 2025-09-22 20:30:16.113 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:30:18.605 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:30:27.889 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-22 20:30:29.960 [main] HomePage - Đã chờ element //input[@placeholder='Find Services'] hiển thị
+{INFO ] 2025-09-22 20:30:29.982 [main] HomePage - Đã nhập 's' vào element: //input[@placeholder='Find Services']
+{INFO ] 2025-09-22 20:30:29.989 [main] HomePage - Đã chờ element //div[@class='header_search']//button hiển thị
+{INFO ] 2025-09-22 20:30:30.026 [main] HomePage - Đã click vào element: //div[@class='header_search']//button
+{INFO ] 2025-09-22 20:30:35.028 [main] HomePage - Đã search thành công
+{INFO ] 2025-09-22 20:30:35.043 [main] HomeTest - Test testSearch thành công
+{INFO ] 2025-09-22 20:30:35.043 [main] HomeTest - === Đóng Browser cho test case testSearch ===
+{INFO ] 2025-09-22 20:45:26.290 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:45:28.638 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{WARN ] 2025-09-22 20:45:58.810 [main] HomeTest - Test testBodySearch bị skip
+{INFO ] 2025-09-22 20:45:58.811 [main] HomeTest - === Đóng Browser cho test case testBodySearch ===
+{INFO ] 2025-09-22 20:46:07.645 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 20:46:10.128 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 20:46:32.263 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{INFO ] 2025-09-22 20:46:34.300 [main] HomePage - Thực hiện search qua BODY search bar
+{INFO ] 2025-09-22 20:46:34.304 [main] HomePage - Đã chờ element //form[@role='search']//input hiển thị
+{INFO ] 2025-09-22 20:46:34.325 [main] HomePage - Đã nhập 's' vào element: //form[@role='search']//input
+{INFO ] 2025-09-22 20:46:39.347 [main] HomePage - URL sau khi search: https://demo5.cybersoft.edu.vn/result/s
+{INFO ] 2025-09-22 20:46:39.348 [main] HomePage - Đã search thành công với từ khóa: s
+{INFO ] 2025-09-22 20:46:39.361 [main] HomeTest - Test testBodySearch thành công
+{INFO ] 2025-09-22 20:46:39.361 [main] HomeTest - === Đóng Browser cho test case testBodySearch ===
+{INFO ] 2025-09-22 22:06:00.988 [main] LoginTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 22:06:03.964 [main] LoginTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 22:06:20.529 [main] LoginPage - Đã chờ element //*[contains(@id,'email')] hiển thị
+{INFO ] 2025-09-22 22:06:20.742 [main] LoginPage - Đã nhập 'tuantest0808@hotmail.com' vào element: //*[contains(@id,'email')]
+{INFO ] 2025-09-22 22:06:21.750 [main] LoginPage - Đã chờ element //*[contains(@id,'password')] hiển thị
+{INFO ] 2025-09-22 22:06:21.818 [main] LoginPage - Đã nhập 'Weber080804' vào element: //*[contains(@id,'password')]
+{INFO ] 2025-09-22 22:06:22.824 [main] LoginPage - Đã chờ element //*[contains(@type,'submit')] hiển thị
+{INFO ] 2025-09-22 22:06:22.853 [main] LoginPage - Đã click vào element: //*[contains(@type,'submit')]
+{INFO ] 2025-09-22 22:06:32.065 [main] LoginTest - Test testLoginWithValidData thành công
+{INFO ] 2025-09-22 22:06:32.066 [main] LoginTest - === Đóng Browser cho test case testLoginWithValidData ===
+{INFO ] 2025-09-22 22:07:39.024 [main] HomeTest - === Khởi tạo Playwright và Browser cho test mới ===
+{INFO ] 2025-09-22 22:07:41.543 [main] HomeTest - === Browser sẵn sàng cho test case ===
+{INFO ] 2025-09-22 22:07:47.973 [main] HomePage - Đã chờ element //a[@class='logo active'] hiển thị
+{ERROR] 2025-09-22 22:07:50.037 [main] HomePage - Lỗi khi kiểm tra refresh/scroll: class java.lang.Integer cannot be cast to class java.lang.Double (java.lang.Integer and java.lang.Double are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.Double (java.lang.Integer and java.lang.Double are in module java.base of loader 'bootstrap')
+	at Pages.HomePage.logoAction(HomePage.java:65) ~[classes/:?]
+	at Tests.HomeTest.testRefreshPage(HomeTest.java:55) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{ERROR] 2025-09-22 22:07:50.120 [main] HomeTest - Test testRefreshPage thất bại
+java.lang.AssertionError: Chức năng làm mới trang hoặc kéo lên đầu trang khi click Logo không hoạt động expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.10.2.jar:7.10.2]
+	at Tests.HomeTest.testRefreshPage(HomeTest.java:55) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+{INFO ] 2025-09-22 22:07:51.059 [main] HomeTest - === Đóng Browser cho test case testRefreshPage ===

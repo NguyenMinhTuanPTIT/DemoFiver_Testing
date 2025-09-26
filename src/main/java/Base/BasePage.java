@@ -1,5 +1,6 @@
 package Base;
 
+import Locators.HomeLocator;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.WaitForSelectorState;
 import org.apache.logging.log4j.LogManager;
@@ -87,6 +88,28 @@ public class BasePage {
             throw e;
         }
     }
+    public void selectItemInList( String locator,String name) {
+        try {
+            Locator items = page.locator(locator);
+            int count = items.count();
+
+            for (int i = 0; i < count; i++) {
+                String text = items.nth(i).innerText().trim();
+                if (text.equalsIgnoreCase(name)) {
+                    items.nth(i).click();
+                    logger.info("Đã chọn item '{}' trong danh sách với locator: {}", name, locator);
+                    return;
+                }
+            }
+
+            logger.warn("Không tìm thấy item '{}' trong danh sách với locator: {}", name, locator);
+            throw new RuntimeException("Item '" + name + "' không tồn tại trong danh sách");
+        } catch (Exception e) {
+            logger.error("Lỗi khi chọn item '{}' trong danh sách với locator: {}", name, locator, e);
+            throw e;
+        }
+    }
+
 
     public int extractNumber(String text) {
         // Biểu thức chính quy để tìm một hoặc nhiều chữ số liên tiếp
@@ -144,6 +167,41 @@ public class BasePage {
             throw e;
         }
     }
+    public boolean search(String locator, String keyword) {
+        try {
+            // Xác định loại search bar
+            if (locator.equalsIgnoreCase(HomeLocator.searchBodyBar)) {
+                logger.info("Thực hiện search qua BODY search bar");
+            } else if (locator.equalsIgnoreCase(HomeLocator.searchHeaderBar)) {
+                logger.info("Thực hiện search qua HEADER search bar");
+            } else {
+                logger.warn("Locator không khớp body/header: {}", locator);
+                return false;
+            }
+
+            // Điền từ khóa và submit
+            fillByLocator(locator, keyword);
+            page.keyboard().press("Enter");
+
+            // Đợi kết quả
+            page.waitForTimeout(5000);
+            String currentUrl = page.url();
+            logger.info("URL sau khi search: {}", currentUrl);
+
+            // Kiểm tra URL kết quả
+            if (currentUrl.contains(keyword) && currentUrl.contains("result")) {
+                logger.info("Đã search thành công với từ khóa: {}", keyword);
+                return true;
+            } else {
+                logger.warn("Search thất bại hoặc URL không hợp lệ với từ khóa: {}", keyword);
+                return false;
+            }
+        } catch (Exception e) {
+            logger.error("Lỗi khi search với từ khóa {}: {}", keyword, e.getMessage(), e);
+            return false;
+        }
+    }
+
 
     // Chờ element visible
     public void waitForVisibleByLocator(String locator) {
